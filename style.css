@@ -1,0 +1,101 @@
+.page{
+    display: flex;
+    width: 70%;
+    height: auto;
+    border: 1px solid lightgrey; 
+    margin: 7% auto  auto 15%;
+}
+.left-side:nth-of-type(1){
+    flex-grow:0;
+    flex-basis: 39%;
+}
+.right-side:nth-of-type(2){
+    flex-grow:0;
+    flex-basis: 39%;
+  
+}
+
+.right-side{
+    margin: auto auto 20px 13%;
+        padding: 5em 70px 10px 20px;
+}
+
+input{
+    display:block;
+    margin: 20px auto 20px auto ;
+    padding: 10px 100px 10px 20px;
+    border: 1px solid rgb(240, 238, 238);
+    border-radius: 3px;
+    background-color: rgb(240, 238, 238);
+}
+
+.left-side{
+   
+    padding-right: 5em;
+    color:white;
+    font-family:candara;
+
+}
+.left-side h2{
+    font-size: 25px;
+}
+
+
+.welcome{
+    margin: 8.5em auto -5em 3em;
+    padding-bottom: 13em;
+    text-align: center;
+}
+.welcome p{
+    margin-top: 16px;
+    line-height: 1.5;
+}
+
+.right-side h2{
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgba(71, 172, 155, 0.959);
+    font-size: 25px;
+}
+
+.right-side p{
+    text-align: center;
+    margin-top: 7em;
+    font-size: 14px;
+    color: rgb(206, 203, 203);
+    font-weight: bold;
+}
+
+
+.sign-up-btn{
+    border: 1px solid rgba(71, 172, 155, 0.959);
+    background-color: rgba(71, 172, 155, 0.959);
+    padding:10px 50px;
+    border-radius: 20px;
+    margin: auto auto 2em  4.9em;
+    color:white;
+    font-weight: 600;
+}
+
+.sign-in-btn{
+    border: 1px solid white;
+    background-color:rgba(71, 172, 155, 0.959);
+    padding:10px 50px;
+    margin: 3em auto 2em  auto;
+    border-radius: 20px;
+    color:white;
+    font-weight: 400;
+}
+
+*{
+    outline:0;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+h4{
+    color: white;
+    font-style: italic;
+    padding: 2em 0 0 2em;
+}
