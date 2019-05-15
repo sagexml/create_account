@@ -49,7 +49,7 @@ input{
     border: 1px solid rgb(240, 238, 238);
     border-radius: 3px;
     background-color: rgb(240, 238, 238);
-    width: 100%;
+    width: 80%;
 }   
 
 .left-side{
@@ -94,12 +94,13 @@ input{
 .sign-up-btn{
     border: 1px solid rgba(71, 172, 155, 0.959);
     background-color: rgba(71, 172, 155, 0.959);
-    padding:10px 50px;
+    padding:0.85em;
     border-radius: 20px;
-    margin: auto auto auto 25%;
-    color:white;
+    margin-left: 10em;
+     color:white;
     font-weight: 600;
-    width:50%;
+    width:35%;
+
   
 }
 
