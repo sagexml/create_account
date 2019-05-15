@@ -49,7 +49,8 @@ input{
     border: 1px solid rgb(240, 238, 238);
     border-radius: 3px;
     background-color: rgb(240, 238, 238);
-}
+    width: 80%;
+}   
 
 .left-side{
    
@@ -95,9 +96,10 @@ input{
     background-color: rgba(71, 172, 155, 0.959);
     padding:10px 50px;
     border-radius: 20px;
-    margin: auto auto auto  11em;
+    margin: auto auto auto 28%;
     color:white;
     font-weight: 600;
+  
 }
 
 .sign-in-btn{
