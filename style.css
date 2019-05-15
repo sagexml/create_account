@@ -21,8 +21,8 @@
     box-sizing: border-box;
     height: auto;
     border: 1px solid lightgrey; 
-    margin: 7% auto  auto 15%;
-    width: 70%;
+    margin: 7% auto  7% auto;
+    width: 100%;
     
  
 }
@@ -95,7 +95,7 @@ input{
     background-color: rgba(71, 172, 155, 0.959);
     padding:10px 50px;
     border-radius: 20px;
-    margin: auto 1em auto  6em;
+    margin: auto auto auto  11em;
     color:white;
     font-weight: 600;
 }
